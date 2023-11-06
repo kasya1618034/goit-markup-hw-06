@@ -520,6 +520,17 @@ body {
   fill: var(--light);
 }
 
+.footer-form {
+  display: flex;
+}
+
+.footer-mail {
+  gap: 24px;
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white);
+}
+
 /*Modal*/
 .modal-window {
   position: fixed;
