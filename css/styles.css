@@ -572,7 +572,7 @@ body {
   transition-property: opacity, visibility;
   transition-timing-function: var(--tr-fn);
   transition-duration: var(--tr-duration);
-  background-color: rgba(46, 47, 66, 0.4);
+  background-color: var(--dark-color);
 }
 
 .modal-window.is-hidden {
@@ -659,7 +659,7 @@ body {
 .modal-input {
   width: 100%;
   height: 40px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--dark-color);
   border-radius: 4px;
   background-color: transparent;
   padding-left: 38px;
@@ -694,7 +694,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--dark-color);
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid var(--dark-color);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px;
@@ -709,8 +709,30 @@ body {
   border-color: var(--primary-color);
 }
 
-.terms {
+.privacy-container {
   margin-bottom: 24px;
+}
+
+.privacy-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text);
+}
+
+.privacy-reference {
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--dark-color);
+  border-radius: 2px;
+  transition-property: background-color, border, fill;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  
 }
 
 /* portfolio */
