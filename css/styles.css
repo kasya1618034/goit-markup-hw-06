@@ -680,7 +680,7 @@ body {
   border-color: var(--primary-color);
 }
 
-.input-icon {
+.modal-icon {
   position: absolute;
   left: 16px;
   top: 50%;
