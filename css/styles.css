@@ -709,6 +709,10 @@ body {
   border-color: var(--primary-color);
 }
 
+.terms {
+  margin-bottom: 24px;
+}
+
 /* portfolio */
 
 .portfolio-mid {
