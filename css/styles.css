@@ -742,7 +742,7 @@ body {
   fill: transparent;
 }
 
-.privacy-input:active .privacy-reference {
+.privacy-input:checked .privacy-reference {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
