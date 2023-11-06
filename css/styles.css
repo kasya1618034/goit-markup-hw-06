@@ -646,6 +646,9 @@ body {
 .modal-form-element {
   margin-bottom: 8px;
 }
+.modal-form-element:last-child {
+  margin-bottom: 16px;
+}
 
 .modal-label {
   font-size: 12px;
