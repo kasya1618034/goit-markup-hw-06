@@ -539,6 +539,26 @@ body {
   border-radius: 4px;
 }
 
+.signup-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+}
+
+.signup-icon {
+  margin-left: 16px;
+}
+
 /*Modal*/
 .modal-window {
   position: fixed;
