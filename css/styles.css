@@ -523,6 +523,7 @@ body {
 
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 
 .footer-mail {
@@ -540,9 +541,6 @@ body {
   display: inline-block;
 }
 
-.signup-mail {
-  margin-right: 24px;
-}
 
 .signup-button {
   min-width: 165px;
