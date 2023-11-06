@@ -525,10 +525,18 @@ body {
 }
 
 .footer-mail {
-  gap: 24px;
+  color: var(--white);
+  background-color: transparent;
   width: 264px;
   height: 40px;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  gap: 24px;
   border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /*Modal*/
