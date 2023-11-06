@@ -525,9 +525,9 @@ body {
 }
 
 .footer-mail {
+  gap: 24px;
   color: var(--white);
   background-color: transparent;
-  gap: 24px;
   width: 264px;
   height: 40px;
   padding-left: 16px;
