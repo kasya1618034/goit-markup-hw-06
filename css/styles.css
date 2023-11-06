@@ -732,7 +732,31 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+}
+
+.privacy-input:active .privacy-reference {
+  background-color: var(--pressed-state);
+  border: none;
+  fill: var(--light);
+}
+
+.privacy-link {
+  color: var(--primary-color);
+}
+
+.modal-button-send {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition-property: background-color;
+  transition-duration: var(--tr-duration);
+  transition-timing-function: var(--tr-fn);
 }
 
 /* portfolio */
