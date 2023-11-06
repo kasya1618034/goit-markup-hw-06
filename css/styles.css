@@ -452,6 +452,7 @@ body {
 .page-footer .container {
   display: flex;
   align-items: baseline;
+  justify-content: space-between;
 }
 
 .footer-text {
@@ -525,7 +526,6 @@ body {
 }
 
 .footer-mail {
-  gap: 24px;
   color: var(--white);
   background-color: transparent;
   width: 264px;
@@ -537,10 +537,11 @@ body {
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: inline-block;
 }
 
 .signup-mail {
-  gap: 24px;
+  margin-right: 24px;
 }
 
 .signup-button {
@@ -561,6 +562,7 @@ body {
 
 .signup-icon {
   margin-left: 16px;
+  fill: var(--white);
 }
 
 /*Modal*/
@@ -644,7 +646,7 @@ body {
 }
 
 .modal-form-element {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-label {
@@ -654,6 +656,7 @@ body {
   color: var(--subtle-text);
   display: block;
   margin-bottom: 4px;
+
 }
 
 .modal-entry-field {
