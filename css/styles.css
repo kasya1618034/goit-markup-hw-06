@@ -539,6 +539,10 @@ body {
   border-radius: 4px;
 }
 
+.signup-mail {
+  gap: 24px;
+}
+
 .signup-button {
   min-width: 165px;
   height: 40px;
