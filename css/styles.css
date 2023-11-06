@@ -691,7 +691,7 @@ body {
   transition-timing-function: var(--tr-fn);
 }
 
-.modal-input:focus .modal-icon {
+.modal-input:focus + .modal-icon {
   fill: var(--primary-color);
 }
 
@@ -743,7 +743,7 @@ body {
   fill: transparent;
 }
 
-.privacy-input:checked .privacy-reference {
+.privacy-input:checked + .privacy-label span {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
