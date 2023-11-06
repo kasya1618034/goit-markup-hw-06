@@ -644,7 +644,7 @@ body {
 }
 
 .modal-form-element {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .modal-label {
@@ -688,7 +688,7 @@ body {
   transition-timing-function: var(--tr-fn);
 }
 
-.modal-input:focus .input-icon {
+.modal-input:focus .modal-icon {
   fill: var(--primary-color);
 }
 
