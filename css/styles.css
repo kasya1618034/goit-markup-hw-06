@@ -576,7 +576,7 @@ body {
   transition-property: opacity, visibility;
   transition-timing-function: var(--tr-fn);
   transition-duration: var(--tr-duration);
-  background-color: var(--dark-color);
+  background-color: rgba(46, 47, 66, 0.40);
 }
 
 .modal-window.is-hidden {
@@ -646,7 +646,7 @@ body {
 .modal-form-element {
   margin-bottom: 8px;
 }
-.modal-form-element:last-child {
+.modal-form-element.privacy-container {
   margin-bottom: 16px;
 }
 
@@ -665,7 +665,7 @@ body {
 }
 
 .modal-entry-field:focus-within {
-  fill: #4d5ae5;
+  fill: var(--primary-color);
 }
 
 .modal-input {
@@ -736,7 +736,7 @@ body {
 .privacy-reference {
   width: 16px;
   height: 16px;
-  border: 1px solid var(--dark-color);
+  border: 1px solid rgba(46, 47, 66, 0.40);
   border-radius: 2px;
   transition-property: background-color, border, fill;
   transition-duration: var(--tr-duration);
