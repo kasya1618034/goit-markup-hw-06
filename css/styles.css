@@ -664,6 +664,10 @@ body {
   position: relative;
 }
 
+.modal-entry-field:focus-within {
+  fill: #4d5ae5;
+}
+
 .modal-input {
   width: 100%;
   height: 40px;

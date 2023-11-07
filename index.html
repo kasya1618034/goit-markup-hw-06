@@ -377,7 +377,7 @@
           <p class="footer-ind-paragraph">Subscribe</p>
           <form class="footer-form" name="signup-form" novalidate>
             <label class="signup-mail">
-              <input class="footer-mail" type="email" name="email" placeholder="E-mail">
+              <input class="footer-mail" type="email" name="email" placeholder="E-mail" required>
             </label>
             <button class="signup-button" type="submit">
               Subscribe
@@ -401,8 +401,8 @@
           <div class="modal-form-element">
             <label class="modal-label" for="user-name">Name</label>
             <div class="modal-entry-field">
-              <input class="modal-input" id="user-name" type="text" name="user-name">
-              <svg class="modal-icon" width="18" height="24">
+              <input class="modal-input" id="user-name" type="text" name="user-name" required>
+              <svg class="modal-icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -410,7 +410,7 @@
           <div class="modal-form-element">
             <label class="modal-label" for="user-phone">Phone</label>
             <div class="modal-entry-field">
-              <input class="modal-input" id="user-phone" type="tel" name="user-phone">
+              <input class="modal-input" id="user-phone" type="tel" name="user-phone" required>
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -419,7 +419,7 @@
           <div class="modal-form-element">
             <label class="modal-label" for="user-mail">Email</label>
             <div class="modal-entry-field">
-              <input class="modal-input" id="user-mail" type="email" name="user-mail">
+              <input class="modal-input" id="user-mail" type="email" name="user-mail" required>
               <svg class="modal-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
@@ -430,7 +430,7 @@
             <textarea class="modal-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
           </div>
           <div class="privacy-container">
-            <input class="privacy-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+            <input class="privacy-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" required>
             <label class="privacy-label" for="user-privacy">
               <span class="privacy-reference">
                 <svg class="click-icon" width="10" height="8">
